@@ -23,11 +23,11 @@ spec:
               memory: '1024Mi'
               cpu: '1000m'
           ports:
-            - containerPort: {{ .Values.port }}
+            - containerPort: 8080
           env:
             - name: NAME
-              value: {{ .Values.name }}
+              value: "{{ .Values.appName }}"
             - name: PORT
-              value: {{ .Values.port }}
+              value: "{{ .Values.appPort }}"
             - name: VERSION
-              value: {{ .Values.version }}
+              value: "{{ .Values.appVersion }}"
