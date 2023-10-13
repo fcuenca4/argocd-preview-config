@@ -1,0 +1,4 @@
+namespace: default
+version: latest
+image: catalog
+name: catalog-dev
