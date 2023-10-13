@@ -24,10 +24,11 @@ spec:
               cpu: '1000m'
           ports:
             - containerPort: 8080
+            - protocol: TCP
           env:
             - name: NAME
-              value: "{{ .Values.appName }}"
+              value: {{ .Values.appName }}
             - name: PORT
-              value: "{{ .Values.appPort }}"
+              value: {{ .Values.appPort }}
             - name: VERSION
-              value: "{{ .Values.appVersion }}"
+              value: {{ .Values.appVersion }}
