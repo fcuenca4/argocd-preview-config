@@ -27,8 +27,8 @@ spec:
             - protocol: TCP
           env:
             - name: NAME
-              value: {{ .Values.appName }}
+              value: {{ .Values.name }}
             - name: PORT
-              value: {{ .Values.appPort }}
+              value: {{ .Values.port }}
             - name: VERSION
-              value: {{ .Values.appVersion }}
+              value: {{ .Values.version }}
