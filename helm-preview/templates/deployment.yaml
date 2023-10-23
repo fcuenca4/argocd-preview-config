@@ -30,4 +30,4 @@ spec:
             - name: PORT
               value: "4001"
             - name: VERSION
-              value: {{ .Values.port }}
+              value: "{{ .Values.port }}"
