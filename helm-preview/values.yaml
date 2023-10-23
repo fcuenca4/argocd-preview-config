@@ -3,3 +3,4 @@ version: latest
 image: catalog
 name: catalog
 port: 4001
+pullRequest: 0
