@@ -24,10 +24,3 @@ spec:
               cpu: '1000m'
           ports:
             - containerPort: {{ .Values.port }}
-          env:
-            - name: NAME
-              value: catalog
-            - name: PORT
-              value: 4001
-            - name: VERSION
-              value: latest
