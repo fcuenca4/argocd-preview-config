@@ -2,4 +2,4 @@ namespace: catalog-dev
 version: latest
 image: catalog
 name: catalog
-port: '0000'
+port: 4001
