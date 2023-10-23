@@ -1,5 +1,5 @@
 namespace: catalog-dev
-version: latest
-image: catalog
-name: catalog
-port: 0000
+version: 'latest' # Specify the desired image version as a string
+image: 'fcuenca4/catalog' # Ensure image name is enclosed in double quotes
+name: 'catalog' # Ensure name is enclosed in double quotes
+port: '4001' # Ensure port is enclosed in double quotes
