@@ -26,8 +26,8 @@ spec:
             - containerPort: {{ .Values.port }}
           env:
             - name: NAME
-              value: {{ .Values.name }}
+              value: catalog
             - name: PORT
-              value: 4001
+              value: {{ .Values.port }}
             - name: VERSION
               value: 1.0.4
