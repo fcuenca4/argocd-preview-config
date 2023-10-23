@@ -28,6 +28,6 @@ spec:
             - name: NAME
               value: {{ .Values.name }}
             - name: PORT
-              value: "4001"
+              value: "{{ .Values.port }}"
             - name: VERSION
               value: {{ .Values.version }}
