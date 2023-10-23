@@ -26,8 +26,8 @@ spec:
             - containerPort: {{ .Values.port }}
           env:
             - name: NAME
-              value: {{ .Values.name }}
+              value: "{{ .Values.name }}"
             - name: PORT
-              value: {{ .Values.port }}
+              value: "{{ .Values.port }}"
             - name: VERSION
-              value: {{ .Values.version }}
+              value: "{{ .Values.version }}"
